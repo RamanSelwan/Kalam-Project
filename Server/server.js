@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:3000", // Allow only this origin
+  origin: "https://kalam-frontend-n1746psh0-ramanselwans-projects.vercel.app/", // Allow only this origin
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // Allow cookies to be sent
 };
